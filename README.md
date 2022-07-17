@@ -27,12 +27,12 @@ It is important to note that the MSGEQ7 board can handle up to the levels a typi
 
 ##Software
 The software was written using the Arduino IDE and uses these libraries:
-1. esp_now
-2. WiFi
-3. Preferences
-4. Taskscheduler
-5. LiquirCrystal_I2C
-6. IRSmallDecoder
+1. esp_now - included in ESP32 core
+2. WiFi - included in ESP32 core
+3. Preferences - included in ESP32 core
+4. Taskscheduler by Anatoli Arkhipenko (in Arduino IDE)
+5. LiquirCrystal_I2C by Marco Schwartz (in Arduino IDE)
+6. IRSmallDecoder by Luis Carvahalho (in ARduino IDE)
 
 Data packets are sent using the ESP-NOW protocol at around a 50 mS update rate.
 
